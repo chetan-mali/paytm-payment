@@ -1,2 +1,4 @@
 paytm-pg
 django
+gunicorn
+django-heroku
