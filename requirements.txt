@@ -1,2 +1,2 @@
-payth-pg
+paytm-pg
 django
