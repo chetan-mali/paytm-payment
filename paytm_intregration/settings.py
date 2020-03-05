@@ -25,7 +25,7 @@ SECRET_KEY = '3x@_bgkjztz$4yvj2v9lkp7x2vu1hdor4d&1=4+zdjeeq(ggi('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -125,11 +125,11 @@ STATIC_URL = '/static/'
 
 PAYTM_MERCHANT_KEY = ""
 PAYTM_MERCHANT_ID = ""
-HOST_URL = "https://localhost:8000/"
+HOST_URL = "https://pay-chetan.herokuapp.com/"
 PAYTM_CALLBACK_URL = "/response/"
 
 if DEBUG:
     PAYTM_MERCHANT_KEY = "jdhtQEBKRFaIYwy9"
     PAYTM_MERCHANT_ID = "Ieumky66341466410334"
     PAYTM_WEBSITE = 'WEBSTAGING'
-    HOST_URL = 'http://localhost:8000'
+    HOST_URL = 'https://pay-chetan.herokuapp.com/'
