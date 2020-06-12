@@ -127,11 +127,11 @@ STATIC_URL = '/static/'
 
 PAYTM_MERCHANT_KEY = ""
 PAYTM_MERCHANT_ID = ""
-HOST_URL = "https://pay-chetan.herokuapp.com/"
+HOST_URL = ""
 PAYTM_CALLBACK_URL = "/response/"
 
 if DEBUG:
-    PAYTM_MERCHANT_KEY = "jdhtQEBKRFaIYwy9"
-    PAYTM_MERCHANT_ID = "Ieumky66341466410334"
+    PAYTM_MERCHANT_KEY = ""
+    PAYTM_MERCHANT_ID = ""
     PAYTM_WEBSITE = 'WEBSTAGING'
-    HOST_URL = 'https://pay-chetan.herokuapp.com/'
+    HOST_URL = ''
